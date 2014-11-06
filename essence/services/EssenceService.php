@@ -14,9 +14,9 @@ class EssenceService extends BaseApplicationComponent
 	public $cachedData = false;
 
 	public function __construct()
-    {
-        $this->essence = new Essence();
-    }
+	{
+		$this->essence = new Essence();
+	}
 
 	public function embed($url, array $options = array())
 	{
