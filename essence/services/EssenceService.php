@@ -2,8 +2,6 @@
 
 namespace Craft;
 
-require CRAFT_PLUGINS_PATH . '/essence/vendor/autoload.php';
-
 use \fg\Essence\Essence;
 
 class EssenceService extends BaseApplicationComponent

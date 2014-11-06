@@ -1,5 +1,8 @@
 <?php
+
 namespace Craft;
+
+require CRAFT_PLUGINS_PATH . '/essence/vendor/autoload.php';
 
 class EssencePlugin extends BasePlugin
 {
@@ -24,14 +27,9 @@ class EssencePlugin extends BasePlugin
 		return 'http://withchief.com';
 	}
 
-    public function addTwigExtension()
-    {
-        Craft::import('plugins.essence.twigextensions.EssenceTwigExtension');
-        return new EssenceTwigExtension();
-    }
-
-	function init()
+	public function addTwigExtension()
 	{
-		
+		Craft::import('plugins.essence.twigextensions.EssenceTwigExtension');
+		return new EssenceTwigExtension();
 	}
 }
