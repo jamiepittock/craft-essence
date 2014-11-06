@@ -1,0 +1,47 @@
+[
+    {
+        "name": "fg/essence",
+        "version": "1.4.1",
+        "version_normalized": "1.4.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/felixgirault/essence.git",
+            "reference": "28629005ce22dac63fab6a79faada2d4c5de6b20"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/felixgirault/essence/zipball/28629005ce22dac63fab6a79faada2d4c5de6b20",
+            "reference": "28629005ce22dac63fab6a79faada2d4c5de6b20",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2013-06-25 18:11:17",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "fg": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Félix Girault",
+                "email": "felix.girault@gmail.com",
+                "homepage": "http://www.felix-girault.fr",
+                "role": "Developer"
+            }
+        ],
+        "description": "Extracts informations about medias on the web, like youtube videos, twitter statuses or blog articles.",
+        "homepage": "http://github.com/felixgirault/essence",
+        "keywords": [
+            "embed",
+            "media",
+            "oembed",
+            "opengraph"
+        ]
+    }
+]
